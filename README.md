@@ -34,7 +34,8 @@ public class AuthenticationFilter : AuthenticationFilterAttribute
 	{
         if (!Authenticate(context))
         {
-            context.ErrorResult = new StatusCodeResult(HttpStatusCode.Unauthorized, context.Request);
+            context.ErrorResult = new StatusCodeResult(HttpStatusCode.Unauthorized, 
+                context.Request);
         }
 	}
 
@@ -57,7 +58,8 @@ public class AuthenticationFilter : AuthenticationFilterAttribute
 	{            
         if (!await Authenticate(context))
         {
-            context.ErrorResult = new StatusCodeResult(HttpStatusCode.Unauthorized, context.Request);
+            context.ErrorResult = new StatusCodeResult(HttpStatusCode.Unauthorized, 
+                context.Request);
         }            
 	}
 
