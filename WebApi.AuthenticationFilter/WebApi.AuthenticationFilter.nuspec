@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>WebApi.AuthenticationFilter</id>
-    <version>$version$</version>    
+    <version>$version$</version>
     <authors>Michael Benford</authors>
     <owners>Michael Benford</owners>
     <licenseUrl>https://github.com/mbenford/WebApi-AuthenticationFilter/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/mbenford/WebApi-AuthenticationFilter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The missing AuthenticationFilterAttribute class from ASP.NET Web API 2</description>    
+    <description>The missing AuthenticationFilterAttribute class from ASP.NET Web API 2</description>
     <copyright>Copyright 2014 Michael Benford</copyright>
     <tags>WebApi</tags>
     <dependencies>
       <dependency id="Microsoft.AspNet.WebApi.Core" version="5.0.0" />
     </dependencies>
-  </metadata>  
+  </metadata>
 </package>
